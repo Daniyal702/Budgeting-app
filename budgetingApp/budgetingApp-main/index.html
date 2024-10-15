@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgeting App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="./app.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <div class="navBar">
+            <h1>Budgeting App</h1>
+        </div>
+    </header>
+    <main>
+        <div id="main1">
+<form >
+            <div id="Budgeting">
+                <h1>Budget</h1>
+                <input type="text" id="Budget" placeholder="Enter Total Amount">
+                <div id="BudgetBtn" onclick="Budget()">Set Budget</div>
+            </div>
+            <div id="Expense">
+                <h1>Expense</h1>
+                <h4>Description</h4>
+                <input type="text" id="ExpenseDescription" placeholder="Grocery">
+                <h4>Amount</h4>
+                <input type="text" id="ExpenseAmount" placeholder="8000">
+                <h4>Date</h4>
+                <input type="date" name="" id="ExpenseDate">
+                <h4>DueDate</h4>
+                <input type="date" name="" id="">
+                <div id="ExpenseBtn" onclick="Expense()">
+                    Add Expense
+                </div>
+                
+            </div>
+            <h1>Over View</h1>
+            <div id="overView">
+                <div id="div1">
+                    
+                    <div>Rs</div><div id="BudgetAmount">
+                    
+                    </div>
+                </div>
+                <div id="div2">
+                    
+                    <div>Rs</div><div id="TotalExpense">
+
+                    </div>
+                </div>
+                <div id="div3">
+                    
+                    <div>Rs</div><div id="FinalBudget">
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+        </form>
+        </div>
+        <div id="main2">
+            <ul id="ExpenseList" >
+               
+            </ul>
+        </div>
+        
+    </main>
+</body>
+</html>

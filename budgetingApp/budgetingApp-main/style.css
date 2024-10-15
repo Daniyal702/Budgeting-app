@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+    margin: 3px;
+    padding: 5px;
+}
+h1{
+    text-decoration: underline;
+}
+header{
+    position: relative;
+    display: flex;
+    background-color: aquamarine;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    z-index: 100;
+    
+}
+#BudgetBtn{
+   background-color: blue;
+   color: white;
+   width: 100px;
+   border-radius: 50px;
+   border: solid;
+   border: solid black 3px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 800px;
+}
+#main1{
+    width: 60%;
+    box-shadow: 0px 0px 3px 1px;
+    border-radius: 15px;
+}
+#main2{
+    width: 40%;
+    box-shadow: 0px 0px 3px 1px;
+    border-radius: 15px;
+    overflow: scroll;
+}
+#ExpenseBtn{
+    background-color: blue;
+   color: white;
+   width: 100px;
+   border-radius: 50px;
+   border: solid;
+   border: solid black 3px;
+}
+#overView{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#div1{
+    width: 207px;
+    height: 100px;
+    box-shadow: 0px 0px 4px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+}
+#div2{
+    width: 207px;
+    height: 100px;
+    box-shadow: 0px 0px 4px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+
+}
+#div3{
+    width: 207px;
+    height: 100px;
+    box-shadow: 0px 0px 4px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+
+}
+
+li{
+    box-shadow: 0px 0px 4px 0px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+li span{
+    font-size: 30px;
+}
